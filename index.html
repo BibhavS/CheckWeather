@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    
+    <script src="weather.js" defer></script>
+    <title>Check Weather</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="heading">
+                <img src="./icon_image.png" alt="logo">
+                <p>Check Weather</p>
+            </div>
+            <div class="date">
+                <p>6th June 2023</p>
+            </div>
+            <div class="search-weather">
+                <form class="search-form">
+                    <input type="text" name="city" id="city-name">
+                    <input type="submit" value="Search">
+                </form>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="weather-info">
+            <div class="container" style="border:none">
+                <p class="cityName info">London</p>
+                <p class="temp info">10°C</p>
+                <p class="desc info">Broken Clouds</p>
+            </div>
+            <div class="container">
+                <div class="info-container">
+                    <p class="max-temp info">Max-Temperature : <span></span></p>
+                    <p class="min-temp info">Min-Temperature : <span></span></p>
+                    <p class="feel-temp info">Feels like : <span></span></p>
+                    <p class="sunrise info">Sunrise : <span></span></p>
+                    <p class="sunset info">Sunset : <span></span></p>
+                </div>
+            </div>
+            <div class="container info-container">
+                <div class="info-container">
+                    <p class="humidity info">Humidity : <span></span></p>
+                    <p class="pressure info">Pressure : <span></span></p>
+                    <p class="wind-speed info">Wind speed : <span></span></p>
+                    <p class="wind-deg info">Wind degree : <span></span></p>
+                    <p class="visibility info">Visiblity : <span></span></p>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="other-weather">
+            <div class="container2">
+                <p class="other-city city1">Kathmandu</p>
+                <p class="temp2">30°C</p>
+            </div>
+            <div class="container2">
+                <p class="other-city city2">Pokhara</p>
+                <p class="temp2">25°C</p>
+            </div>
+            <div class="container2">
+                <p class="other-city city3">New York</p>
+                <p class="temp2">15°C</p>
+            </div>
+            <div class="container2">
+                <p class="other-city city4">Paris</p>
+                <p class="temp2">12°C</p>
+            </div>
+            <div class="container2">
+                <p class="other-city city5">Los Angeles</p>
+                <p class="temp2">28°C</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
